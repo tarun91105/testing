@@ -1,0 +1,54 @@
+.debit-card{
+      background-image: url("https://xmple.com/wallpaper/blue-gradient-white-linear-5120x2880-c2-87cefa-ffffff-a-105-f-14.svg");
+      background-size: cover;
+      height:100vh;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width:100vw;
+}
+.ccard{
+    height:250px;
+    width:420px;
+    box-shadow: 0px 0px 20px grey;
+    border-radius:13px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0D8de35sk-uPDMtV5X3OZ0mZu_pbrNS74MiWQ_I97xGR6jWMR0t9WchHDy2yQ1952x1E&usqp=CAU");
+    background-size: cover;
+}
+.smart-chip{
+    height:40px;
+    width:50px;
+    position:relative;
+    top:40px;
+    left:30px;
+}
+.wifi{
+    height:40px;
+    width:50px;
+    position:relative;
+    top:40px;
+    left:280px;
+
+}
+.num{
+    position:relative;
+    top:50px;
+    left:30px;
+}
+.master-card{
+    height:50px;
+    width:70px;
+    position:relative;
+    top:50px;
+    left:320px;
+}
+.valid{
+    color:rgb(211, 21, 21);
+    font-weight: bold;
+    position:relative;
+    top:3px;
+    left:35px;
+    bottom:10px;
+    font-size: 25px;
+}

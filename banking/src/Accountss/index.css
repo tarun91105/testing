@@ -1,0 +1,27 @@
+.Accounts{
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/2276451063/display_1500/stock-vector-business-arrow-up-growth-line-circuit-technology-on-dark-blue-background-business-investment-to-2276451063.jpg");
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.accc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url("https://webgradients.com/public/webgradients_png/003%20Spring%20Warmth.png");
+    background-size:cover;
+}
+
+.mai{
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}

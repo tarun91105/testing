@@ -1,0 +1,61 @@
+.main-cont{
+    background-image:url("https://media.istockphoto.com/id/1266975549/vector/mobile-bank-conceptual-illustration-internet-online-banking-on-phone-access-to-the-money-on.jpg?s=612x612&w=0&k=20&c=U4i9L--l0sVcqI59HnyFRK6Q11KZQwHPUEk_5iNhTWI=");
+    background-size:cover;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction:row;
+    justify-content:end;
+    align-items: center;
+}
+.login-cont{
+    display:flex; 
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border:2px white solid; 
+    margin-right:150px;
+    padding:20px;
+    box-shadow: 1px;
+    width:300px;
+}
+.input{
+    height:30px;
+    width:200px;
+    margin-bottom:20px;
+    box-shadow: 1px;
+    border:2px black solid;
+    
+}
+.heading{
+    color:white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.register-button{
+    background-color: blueviolet;
+    padding:5px;
+    font-size: 20px;
+    border-radius: 10px;
+    color:white;
+    padding: 10px;
+    width:100px;
+}
+.errPara{
+    color:red;
+    font-size:15px;
+    font-weight:bold;
+}
+.r-b{
+    background-color:green;
+    padding:5px;
+    font-size: 20px;
+    border-radius: 10px;
+    color:white;
+    padding: 10px;
+    width:100px;
+}
+.uuu{
+    font-size:25px;
+    color:antiquewhite;
+}

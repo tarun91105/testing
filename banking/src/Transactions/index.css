@@ -1,0 +1,16 @@
+.mait{
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.transs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url("https://webgradients.com/public/webgradients_png/003%20Spring%20Warmth.png");
+    background-size: cover;
+}

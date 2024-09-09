@@ -1,0 +1,21 @@
+.srryy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.srrybtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    width:100px;
+    background-color: blue;
+    color:white;
+    font-size: 20px;
+    padding:10px;
+    border-radius:5px;
+    font-weight: bold;
+
+}

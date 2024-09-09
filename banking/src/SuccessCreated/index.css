@@ -1,0 +1,21 @@
+.s{
+    height:430px;
+    width:600px;
+    background-size:cover;
+
+}
+.main-contt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sButton{
+    border-radius:6px;
+    height:40px;
+    width:250px;
+    background-color: rgb(14, 149, 93);
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+}
