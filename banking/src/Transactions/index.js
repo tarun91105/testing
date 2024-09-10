@@ -19,6 +19,7 @@ class Transactions extends Component{
     }
     const resposne=await fetch(url,options);
     const data=await resposne.json()
+    console.log(data)
     this.setState({D:[...data]})
 
   }

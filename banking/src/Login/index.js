@@ -25,7 +25,7 @@ class Login extends Component{
         if(username.length===0||password.length===0){
             this.setState({para:true})
         }else{
-            const url="https://bank3-1.onrender.com/login"
+            const url="http://localhost:3000/login"
             const options={
             method:"POST",
             headers:{"Content-Type":"application/json"},
@@ -38,7 +38,7 @@ class Login extends Component{
         const response=await fetch(url,options)
         const data=await response.json()
         console.log(response)
-        if(data.valid!=="in,M valid"){
+        if(response.ok===true){
             const {history}=this.props
             this.setState({para:false,status:false}) 
             Cookie.set('jwt_token',"success",{expires:20})
