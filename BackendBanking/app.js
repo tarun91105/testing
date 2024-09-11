@@ -12,13 +12,14 @@ const { open } = require("sqlite");
 const sqlite3 = require("sqlite3");
 let db = null;
 const dbPath = path.join(__dirname, "Bank.db");
+const port=process.env.PORT || 3000;
 
 const InitializingServer = async () => {
   db = await open({
     filename: dbPath,
     driver: sqlite3.Database,
   });
-  app.listen(3000, () => {
+  app.listen(port, () => {
     console.log("Server is Running at port:3000");
   });
 };
